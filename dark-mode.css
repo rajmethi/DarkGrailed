@@ -2,42 +2,40 @@ body{
     background-color: black
 }
 span {
-    color: red !important;
-    background-color: orange !important
+    color: white !important;
+    /* background-color: black !important */
 }
 p {
-    color: yellow !important
+    color: white !important
 }
 h1 {
-    color: greenyellow !important
+    color: slateblue !important
 }
 a {
-    color: green !important;
-    outline: turquoise !important;
+    color: white !important;
+  
 }
-button {
-    outline: 1px solid blue !important;
-    color: maroon !important;
-    background-color: peru !important
+button, button a, button p{
+    /* outline: 1px solid slateblue !important; */
+    color: black !important;
+    background-color: dark grey !important
 
 }
 
 nav {
-    background-color: orangered !important
+    background-color: black !important
 }
-form {
-    outline: 2px solid brown !important;
-}
+
 /* icons */
 svg[class^="Heart"] {
-    stroke: cornflowerblue !important
+    stroke: slateblue !important
 }
 path {
-    fill: cornflowerblue !important
+    fill: slateblue !important
 }
 /* nav bar and wrapper */
 div#globalHeaderWrapper {
-    background-color: rgb(127, 83, 25) !important
+    background-color: black !important
 }
 nav {
     color: pink !important
@@ -51,19 +49,70 @@ div.-results-refinement,
 div.feed-and-filters,
 div.MySizesToggle,
 div.-filters-header-bar,
-div.right
+div.right,
+div.feed
 {
-    background-color: rgb(255, 100, 165) !important
+    background-color: black !important
+}
+span[class*="-refinement"] {
+    background-color: black !important;
+    color: white !important;
+    outline: 1px solid slateblue !important
+}
+
+div.-save-sort button {
+    background-color: black !important;
+    outline: 1px solid white !important;
+    color: white !important
+
+}
+button[class*="EditAddButton"] {
+    color: white !important
+}
+/* filters */
+div[class*="collapsible"],div[class*="Collapsible"],  div[class*="Filters"], div[class*="filters"], div[class*="filter"] ,div[class*="refinement"], div[class*="Refinement"] {
+    background-color: black !important;
+    
+}
+span[class*="count"] {
+    color: black !important
 }
 
 /* messages */
-div[class*="bot"] {
-    background-color: darkslateblue !important
+div[class*="them.bot"] {
+    background-color: darkgrey !important
 }
+div[class*="conversation-item-activity-log"], div[class*="activity-log-item"] {
+    background-color: black !important
+}
+div.conversations-wrapper button {
+    
+        background-color: black !important;
+        outline: 1px solid white !important;
+        color: white !important  
+}
+h2 {
+    color: white !important
+}
+div.conversation-item-activity-log-expander h1{
+    background-color: black !important;
+    color: slateblue !important
+}
+div.settings-window.vertical-choice {
+    background-color: black !important;
+}
+div.settings-window.vertical-choice a {
+    background-color: black !important;
+    outline: 1px solid white !important;
+    color: white !important
+}
+
+
+
 
 /* authentication */
 span[class^="Badge"], span[class^="AuthenticationBadge"] {
-    background-color: darkslateblue !important
+    background-color: slateblue !important
 }
 
 /* Klarna */
@@ -71,6 +120,159 @@ div[class*="klarna"], span[class*="CondensedSinglePromotionView--Message"]{
     /* background-color: black !important; */
     color: goldenrod !important
 }
-<span[class^=ul-h] {
+span[class^=ul-h] {
     color: hotpink !important
+}
+
+div.__PrivateStripeElement {
+    background-color: black !important
+}
+/* search */
+div[class*="Results"] {
+    background-color: black !important;
+    outline: 1px solid white !important;
+}
+div[class*="Results"] div[class*="Subhead"] {
+    outline: none !important;
+}
+div[class*="Results"] div[class*="Text"] {
+    color: white !important
+}
+form[role="search"], div[role="combobox"] {
+    outline: 1px solid rgb(209, 209, 209) !important;
+    background-color: black !important
+}
+div[role="combobox"] form {
+    outline: 1px solid black !important;
+}
+/* product page */
+a[data-cy="purchase_button"] {
+    outline: 1px solid white !important;
+    background-color: slateblue !important
+}
+button[data-cy="binding_offer_button"], button[data-cy="ask_question_button"] {
+    background-color: black !important;
+    outline: 1px solid white !important;
+    color: white !important
+}
+p[class*="Body_body"] {
+    color: rgb(202, 202, 202) !important
+}
+button[class*="Control"] {
+    background-color: transparent !important
+}
+/* seller info */
+div[class*="ListingSellerCard"] button {
+    outline: 1px solid white !important;
+    color: white !important;
+}
+
+/* measurements */
+div[class*="Callout"] {
+    color: white !important;
+}
+
+/* tags */
+div[class*="Hashtags"] a {
+    outline: white !important
+}
+
+/* price comparison */
+a[class*="-button"] {
+    background-color: black !important
+}
+/* report listing */
+div.-links-wrapper button {
+    background-color: black !important;
+    outline: 1px solid white !important;
+    color: white !important
+}
+
+/* country dropdown */
+select {
+    background-color: black !important;
+    color: white !important
+}
+/* related searches */
+div[class*="RelatedSearch_"] {
+    background-color: black !important;
+    outline: 1px solid white !important
+}
+div[class*="RelatedSearch_"] span {
+    color: white !important;
+}
+/* popular searches on designer page */
+ul[data-cy="popular-links-list"] a {
+    background-color: rgb(79, 55, 143) !important
+  }
+
+/* dropdowns */
+div.-dropdown, div.-popover, div.DropdownMenu, div[class*="Dropdown"], div[class*="Dropdown"] a {
+    background-color: black !important
+}
+
+
+
+/* my account */
+textarea[data-cy="bio"], input[name="email"], input[name="username"] {
+    background-color: black !important
+}
+/* for sale */
+div[class*="ListingForSale"] button {
+    background-color: black !important;
+    outline: 1px solid white !important;
+    color: white !important
+}
+span[class*="Likes_count"] {
+    color: white !important
+
+}
+div[class*="MainContent_actions"] button, div[class*="MainContent_actions"] a {
+    background-color: black !important;
+    outline: 1px solid white !important;
+    color: white !important
+}
+
+/* reviews */
+div[class*="SellerScoreHeader"] {
+    background-color: black !important;
+    
+}
+div[class*="Feedback"] span{
+    color: black !important
+}
+button[class*="UserShareDropdown"], div[class*="UserActions"] a {
+    background-color: black !important;
+    outline: 1px solid white !important;
+    color: white !important
+}
+div[class*="navigationBar"] button {
+    background-color: black !important;
+
+    color: white !important
+}
+
+/* purchases */
+div[class*="TransactionListingCard"] a {
+    background-color: rgb(74, 18, 40) !important
+}
+
+/* saved sizes */
+label {
+    color: white !important
+}
+/* notifications */
+h3 {
+    color: white !important
+}
+div.NotificationItem {
+    background-color: black !important;
+    border-top: 1px solid white !important;
+    border-bottom: 1px solid white !important
+}
+
+/* devices */
+div[class*="-device"] {
+    background-color: black !important;
+    border-bottom: 1px solid white !important;
 }
