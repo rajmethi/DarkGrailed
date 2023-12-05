@@ -1,12 +1,9 @@
 {
-  "manifest_version": 2,
-  "name": "Dark Mode Injector",
+  "manifest_version": 3,
+  "name": "Dark Grailed",
   "version": "1.0",
   "description": "Injects dark mode styles into Grailed.com",
   "permissions": ["activeTab"],
-  "browser_action": {
-    "default_popup": "popup.html"
-  },
   "content_scripts": [
     {
       "matches": ["https://www.grailed.com/*"],

@@ -57,7 +57,7 @@ div.feed
 span[class*="-refinement"] {
     background-color: black !important;
     color: white !important;
-    outline: 1px solid slateblue !important
+    /* outline: 1px solid slateblue !important */
 }
 
 div.-save-sort button {
@@ -67,6 +67,9 @@ div.-save-sort button {
 
 }
 button[class*="EditAddButton"] {
+    color: white !important
+}
+button[class*="Featured"]  {
     color: white !important
 }
 /* filters */
@@ -145,6 +148,9 @@ form[role="search"], div[role="combobox"] {
 div[role="combobox"] form {
     outline: 1px solid black !important;
 }
+input[enterkeyhint="search"] {
+    color: white !important
+}
 /* product page */
 a[data-cy="purchase_button"] {
     outline: 1px solid white !important;
@@ -191,7 +197,8 @@ div.-links-wrapper button {
 /* country dropdown */
 select {
     background-color: black !important;
-    color: white !important
+    color: white !important;
+    outline: white !important
 }
 /* related searches */
 div[class*="RelatedSearch_"] {
@@ -253,8 +260,34 @@ div[class*="navigationBar"] button {
 }
 
 /* purchases */
-div[class*="TransactionListingCard"] a {
-    background-color: rgb(74, 18, 40) !important
+div.lazyload-wrapper img {
+    background-color: black !important;
+    outline: 1px solid white !important;
+    color: white !important
+}
+
+a[rel="noopener noreferrer"]:hover, a[class*="Button_small"]:hover {
+    background-color: black !important;
+    border-top: 1px solid white !important;
+    border-bottom: 1px solid white !important;
+    color: white !important
+}
+a[rel="noopener noreferrer"], a[class*="Button_small"] {
+    background-color: black !important;
+    border: 1px solid white !important;
+    color: white !important
+}
+/* sales */
+div._completed {
+    background-color: black !important;
+    outline: 1px solid white !important;
+    color: white !important
+
+}
+div[class*="Simple_message"]{
+    background-color: black !important;
+
+    color: white !important
 }
 
 /* saved sizes */
@@ -275,4 +308,125 @@ div.NotificationItem {
 div[class*="-device"] {
     background-color: black !important;
     border-bottom: 1px solid white !important;
+}
+
+/* favs */
+a.-tab {
+    background-color: black !important;
+    border-top: 1px solid white !important;
+    border-bottom: 1px solid white !important;
+    color: white !important
+}
+/* add listing */
+input.SellFormInput, input.-hashtag-input {
+    background-color: black !important;
+    color: white !important;
+    outline: 1px solid white !important;
+}
+div[class*="dropDownItems"], div[class*="CustomDropDown"], div.cover-photo, label[for*="photo_input"] div.image-container {
+    background-color: black !important;
+    color: white !important;
+    outline: 1px solid white !important;
+}
+div[class*="Options"] {
+    background-color: black !important;
+    color: white !important;
+
+
+}
+span[role="menuitem"] {
+    background-color: black !important;
+    color: white !important;
+ 
+}
+button[class*="addDesigner"] {
+    background-color: black !important;
+    color: white !important;
+    outline: 1px solid white !important;
+}
+ul[class*="Designer"], ul[class*="Color"] {
+    background-color: black !important;
+    color: white !important;
+    outline: 1px solid white !important;
+}
+textarea[name="description"] {
+    background-color: black !important;
+    color: white !important;
+    outline: 1px solid white !important;
+   
+}
+
+button[type="submit"] {
+    background-color: black !important;
+    color: white !important;
+ 
+}
+
+/* offer */
+/* div[class*="Modal"], div[class*="ReactModal"]{
+    background-color: black !important;
+    color: white !important;
+    outline: 1px solid white !important;
+} */
+div[class*="OfferCreate_tray"] {
+    background-color: black !important;
+}
+div[class*="Modal"] button[data-cy="proceed_button"] {
+    background-color: slateblue !important;
+    color: white !important;
+    outline: 1px solid white !important;
+}
+input[class*="offerInput"] {
+    background-color: transparent !important;
+    color: white !important;
+  
+}
+div[class*="Review"] {
+    background-color: black !important;
+    color: white !important;
+}
+
+div[class*="Modal"] div[class*="Field"] {
+    background-color: black !important;
+    color: white !important;
+    /* outline: 1px solid white !important; */
+}
+button[class*="Address"] {
+    background-color: black !important;
+    color: white !important;
+    outline: 1px solid white !important;
+}
+p[class*="recipient"] {
+    color: white !important;
+}
+div[data-testid="order_details"] {
+    background-color: black !important;
+    color: white !important;
+    /* outline: 1px solid white !important; */
+}
+div[class*="ListingCard_"] {
+    background-color: black !important;
+    color: white !important;
+
+}
+h4[class*="checkout"] {
+    color: white !important;
+}
+div.Modal-Body {
+    background-color: black !important;
+    
+    padding: 0px !important;
+    
+}
+div.Modal-Header {
+    background-color: black !important;
+    outline: solid white !important;
+    color: white !important;
+}
+div[class*="OrderReview_right"] {
+    background-color: black !important;
+
+}
+section[class*="ListingCard"] {
+    background-color: black !important;
 }
