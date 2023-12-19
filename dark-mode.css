@@ -50,10 +50,23 @@ div.feed-and-filters,
 div.MySizesToggle,
 div.-filters-header-bar,
 div.right,
-div.feed
+div.feed,
+div.-overlay
 {
     background-color: black !important
 }
+div.-designer-name {
+    color: white !important
+}
+div[class*="DesignerCard"] button {
+    outline: 1px solid white !important;
+    color: white !important;
+}
+div[class*="desktopFollowButton"] button {
+    color: black !important;
+    background-color: white !important;
+}
+
 span[class*="-refinement"] {
     background-color: black !important;
     color: white !important;
@@ -222,7 +235,8 @@ div.-dropdown, div.-popover, div.DropdownMenu, div[class*="Dropdown"], div[class
 
 /* my account */
 textarea[data-cy="bio"], input[name="email"], input[name="username"] {
-    background-color: black !important
+    background-color: black !important;
+    color: white !important;
 }
 /* for sale */
 div[class*="ListingForSale"] button {
@@ -429,4 +443,9 @@ div[class*="OrderReview_right"] {
 }
 section[class*="ListingCard"] {
     background-color: black !important;
+}
+
+/* shipping */
+ul[class*="SuggestionsList"] {
+    background-color: black !important
 }

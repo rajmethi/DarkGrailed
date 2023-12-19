@@ -1,9 +1,8 @@
 {
   "manifest_version": 3,
   "name": "Dark Grailed",
-  "version": "1.0",
+  "version": "1.2",
   "description": "Injects dark mode styles into Grailed.com",
-  "permissions": ["activeTab"],
   "content_scripts": [
     {
       "matches": ["https://www.grailed.com/*"],
